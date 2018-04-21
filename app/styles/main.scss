@@ -29,6 +29,20 @@
     box-shadow:0 0 0 .2rem darken(#ff8b38, 30%);
   }
 }
+.btn-blue {
+  color:#ffffff;
+  background-color: #489bb9;
+  border-color: #489bb9;
+
+  &:hover {
+    color:#ffffff;
+    background-color: darken(#489bb9, 15%);
+    border-color: darken(#489bb9, 15%);
+  }
+  &.focus, &:focus{
+    box-shadow:0 0 0 .2rem darken(#489bb9, 30%);
+  }
+}
 
 // ALL PAGES
 html {
@@ -172,6 +186,29 @@ nav {
   }
   .nav.responsive li {
     display: block;
+  }
+}
+
+.breadcrum {
+  background-color: #489bb9;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  margin-top: 2.5rem;
+
+  .title {
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 0.875rem;
+  }
+  .links {
+    color: #ffffff;
+
+    a {
+      color: #ffffff;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
   }
 }
 
