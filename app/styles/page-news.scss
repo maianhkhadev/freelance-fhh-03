@@ -32,6 +32,13 @@
     padding-bottom: 3rem;
     margin-bottom: 3rem;
 
+    img {
+
+      @media screen and (max-width: 600px) {
+        margin-bottom: 1.25rem;
+      }
+    }
+
     .underline {
       display: inline-block;
       background-color: #ff8b38;
