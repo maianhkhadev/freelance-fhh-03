@@ -1,0 +1,88 @@
+.section-intro {
+  padding-top: 2.75rem;
+  padding-bottom: 4.25rem;
+
+  .content {
+    color: #333538;
+    font-size: 1.125rem;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+.section-news {
+  background-image: url('../images/page-brochures/section-01-bim.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5.625rem;
+  padding-bottom: 9.125rem;
+
+  .section-content {
+    background-color: #ffffff;
+    padding: 6rem;
+
+    @media screen and (max-width: 600px) {
+      padding: 1.25rem;
+    }
+  }
+
+  .news {
+    border-bottom: 0.0625rem solid #ff8b38;
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+
+    .underline {
+      display: inline-block;
+      background-color: #ff8b38;
+      width: 3.5rem;
+      height: 0.5rem;
+      margin-bottom: 0.75rem;
+    }
+    .date {
+      color: #7d7d7d;
+      font-size: 0.875rem;
+      font-weight: 700;
+      margin-top: 0.25rem;
+
+      @media screen and (min-width: 1200px) {
+        text-align: right;
+      }
+    }
+    .title {
+      color: #7d7d7d;
+      font-size: 1.25rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .content {
+      color: #7d7d7d;
+      margin-bottom: 1.75rem;
+    }
+    .read-more {
+      color: #007236;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+  }
+  nav {
+    background-color: unset;
+
+    .page-link {
+      color: #333538;
+      background-color: unset;
+      font-size: 1rem;
+      font-weight: 500;
+      border: 0.125rem solid #333538;
+      border-radius: unset !important;
+      padding: 0.875rem 1.125rem;
+      margin-left: 0.3125rem;
+      margin-right: 0.3125rem;
+
+      &:hover {
+        color: #d7d7d7;
+        background-color: #007236;
+      }
+    }
+  }
+}
