@@ -2,8 +2,8 @@ $(document).ready(function () {
   $('.section-06 .slick').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
-    prevArrow: '<img class="slick-prev" src="/images/arrow-left.png" alt="">',
-    nextArrow: '<img class="slick-next" src="/images/arrow-right.png" alt="">',
+    prevArrow: '<img class="slick-prev" src="./images/arrow-left.png" alt="">',
+    nextArrow: '<img class="slick-next" src="./images/arrow-right.png" alt="">',
     responsive: [
       {
         breakpoint: 1200,

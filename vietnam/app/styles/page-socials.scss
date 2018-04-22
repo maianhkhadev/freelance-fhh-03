@@ -1,0 +1,29 @@
+.section-socials {
+  background-image: url('../images/page-brochures/section-01-bim.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 6rem;
+  padding-bottom: 10rem;
+
+  .content {
+    margin-bottom: 2.5rem;
+
+    p {
+      color: #ffffff;
+      font-size: 1.125rem;
+    }
+  }
+
+  .socials {
+
+    a {
+      margin-left: 0.675rem;
+      margin-right: 0.675rem;
+
+      &:hover {
+        text-decoration: unset;
+      }
+    }
+  }
+}
