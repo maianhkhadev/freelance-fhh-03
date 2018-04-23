@@ -34,7 +34,7 @@
   }
 }
 .section-02 {
-  background-color: #bee2f6;
+  background-color: #f8f8f8;
   padding-top: 5rem;
   padding-bottom: 3rem;
 
@@ -73,14 +73,14 @@
 
     .underline {
       display: inline-block;
-      background-color: #ff8b38;
+      background-color: #ffffff;
       width: 3.5rem;
       height: 0.5rem;
       margin-top: 1.75rem;
       margin-bottom: 2.75rem;
     }
     .title {
-      color: #3496b9;
+      color: #e82940;
       font-size: 1.875rem;
       font-family: 'Montserrat';
       font-weight: 500;
@@ -120,7 +120,10 @@
   }
 }
 .section-04 {
-  background-color: rgba(#addef1, 0.65);
+  background-image: url('../images/page-brochures/section-01-bim.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 9rem;
   padding-bottom: 6rem;
 
@@ -144,13 +147,14 @@
 
       .underline {
         display: inline-block;
-        background-color: #ff8b38;
+        background-color: #0e2232;
         width: 3.5rem;
         height: 0.5rem;
         margin-top: 1.25rem;
         margin-bottom: 2.25rem;
       }
       .title {
+        color: #0e2232;
         font-size: 1.5rem;
         font-family: 'Montserrat';
         font-weight: 700;
@@ -186,7 +190,7 @@
     margin-bottom: 5rem;
 
     .title {
-      color: #005826;
+      color: #c23e25;
       font-size: 2.5rem;
       font-family: 'Montserrat';
       font-weight: 700;
@@ -208,7 +212,7 @@
       }
     }
     .title {
-      color: #7d7d7d;
+      color: #0e2232;
       font-size: 1.5rem;
       font-family: 'Montserrat';
       font-weight: 700;
@@ -216,7 +220,7 @@
     }
     .underline {
       display: inline-block;
-      background-color: #ff8b38;
+      background-color: #2ec4b6;
       width: 3.5rem;
       height: 0.25rem;
       margin-top: 1.25rem;
@@ -260,7 +264,7 @@
     }
     .underline {
       display: inline-block;
-      background-color: #ff8b38;
+      background-color: #2ec4b6;
       width: 3.5rem;
       height: 0.5rem;
       margin-top: 1.25rem;
@@ -298,7 +302,7 @@
     margin-bottom: 5rem;
 
     .title {
-      color: #addef1;
+      color: #ffffff;
       font-size: 2.5rem;
       font-family: 'Montserrat';
       font-weight: 500;
@@ -370,10 +374,10 @@
     margin-bottom: 2.5rem;
 
     .title {
-      color: #005826;
+      color: #c23e25;
       font-size: 1.875rem;
       font-family: 'Montserrat';
-      font-weight: 500;
+      font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0.375rem;
     }
@@ -425,10 +429,10 @@
     margin-bottom: 2.5rem;
 
     .title {
-      color: #005826;
+      color: #2ec4b6;
       font-size: 2.5rem;
       font-family: 'Montserrat';
-      font-weight: 500;
+      font-weight: 600;
       text-transform: uppercase;
     }
   }
@@ -458,10 +462,10 @@
     margin-bottom: 2.5rem;
 
     .title {
-      color: #005826;
+      color: #2ec4b6;
       font-size: 1.875rem;
       font-family: 'Montserrat';
-      font-weight: 500;
+      font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0.375rem;
     }
