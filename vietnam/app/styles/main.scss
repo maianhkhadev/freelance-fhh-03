@@ -279,6 +279,13 @@ footer {
   }
 }
 
+#backToTop {
+  position: fixed;
+  bottom: 10%;
+  right: 0;
+  z-index: 999;
+}
+
 #stickySocial {
   position: fixed;
   top: 50%;
@@ -311,7 +318,7 @@ footer {
   width: 42px;
   color: #ffffff;
   background-color: #007236;
-  border: 1px solid #007236;
+  border: 1px solid #000000;
   line-height: 42px;
   text-align: center;
   transition: color .25s, border-color .25s, background-color .25s ease-in-out;
