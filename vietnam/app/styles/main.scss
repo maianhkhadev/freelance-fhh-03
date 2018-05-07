@@ -284,6 +284,10 @@ footer {
   bottom: 10%;
   right: 0;
   z-index: 999;
+
+  img {
+    width: 5rem;
+  }
 }
 
 #stickySocial {
@@ -293,7 +297,7 @@ footer {
   transform: translateY(-50%);
   font-size: 0;
   line-height: 0;
-  z-index: 999;
+  z-index: 9999;
 }
 
 #stickySocial .socials {

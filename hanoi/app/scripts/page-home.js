@@ -47,4 +47,25 @@ $(document).ready(function () {
     dots: true,
     arrows: false
   })
+
+  $('.section-02').viewportChecker({
+    offset: 0,
+    callbackFunction: function (elem, action) {
+      $('.section-02 .number').each(function () {
+        $(this).prop('Counter', 0).animate({
+          Counter: $(this).text()
+        }, {
+          duration: 3000,
+          easing: 'swing',
+          step: function (now) {
+            if(Math.ceil(now) === 1000) {
+              $(this).text('1k')
+            } else {
+              $(this).text(Math.ceil(now))
+            }
+          }
+        })
+      })
+    }
+  })
 })

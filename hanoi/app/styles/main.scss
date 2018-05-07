@@ -78,7 +78,7 @@ body {
 }
 
 header {
-  background: #0e2232;
+  background: #ffffff;
   padding-top: 3.625rem;
   padding-bottom: 2.375rem;
 
@@ -90,7 +90,7 @@ header {
   }
 
   .text-line-02 {
-    color: #efffe9;
+    color: #011627;
     font-size: 0.875rem;
     font-family: 'Montserrat';
   }
@@ -118,7 +118,7 @@ header {
 nav {
   position: sticky;
   top: 0;
-  background-color: #ffffff;
+  background-color: lighten(#e9273f, 20%);
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   z-index: 1070;
@@ -127,10 +127,10 @@ nav {
     flex-basis: unset !important;
 
     &:hover {
-      background-color: #2ec4b6;
+      background-color: unset;
 
       .nav-link {
-        color: #ffffff;
+        color: #e9273f;
       }
     }
   }
@@ -302,6 +302,10 @@ footer {
   bottom: 10%;
   right: 0;
   z-index: 999;
+
+  img {
+    width: 5rem;
+  }
 }
 
 #stickySocial {
@@ -311,7 +315,7 @@ footer {
   transform: translateY(-50%);
   font-size: 0;
   line-height: 0;
-  z-index: 999;
+  z-index: 9999;
 }
 
 #stickySocial .socials {

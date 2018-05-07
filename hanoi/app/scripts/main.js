@@ -3,6 +3,8 @@ $(document).ready(function() {
     e.preventDefault()
     $('html, body').animate({ scrollTop: 0 })
   })
+
+  new WOW().init()
 })
 
 function myFunction() {
