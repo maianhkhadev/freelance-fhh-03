@@ -5,16 +5,16 @@
 }
 .btn-watercourse {
   color:#ffffff;
-  background-color: #e82940;
-  border-color: #e82940;
+  background-color: #011627;
+  border-color: #011627;
 
   &:hover {
     color:#ffffff;
-    background-color: darken(#e82940, 15%);
-    border-color: darken(#e82940, 15%);
+    background-color: darken(#011627, 15%);
+    border-color: darken(#011627, 15%);
   }
   &.focus, &:focus{
-    box-shadow:0 0 0 .2rem darken(#e82940, 30%);
+    box-shadow:0 0 0 .2rem darken(#011627, 30%);
   }
 }
 .btn-cyprus {
@@ -118,7 +118,7 @@ header {
 nav {
   position: sticky;
   top: 0;
-  background-color: lighten(#e9273f, 20%);
+  background-color: #d1232a;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   z-index: 1070;
@@ -130,15 +130,15 @@ nav {
       background-color: unset;
 
       .nav-link {
-        color: #e9273f;
+        color: #2ec4b6;
       }
     }
   }
   .nav-link {
-    color: #696969;
+    color: #ffffff;
     font-size: 0.875rem;
     font-weight: 700;
-    border-left: 1px solid #656b6f;
+    border-left: 1px solid #ffffff;
     padding: 0.5rem 0;
   }
 
